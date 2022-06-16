@@ -3,17 +3,15 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="https://glitch.com/favicon.ico" />
-
+    <link rel="icon" href="https://cdn.glitch.global/2bcb07c0-9f83-4412-9875-0b7dfeaf13e6/favicon.png?v=1655351672242" />
     <title>Hamza Alwan</title>
-
+    <!-- import the stylesheet -->
     <link rel="stylesheet" href="/style.css" />
-
-    <script src="/script.js" defer></script>
   </head>
   <body>
 
     <ul style="list-style-type: none; margin-top: -7em; margin-left: -7em; margin-right: -7em; padding: 0; overflow: hidden;">
+      <li style="float: right;"><a onclick="document.getElementById('projects_start').scrollIntoView();">Projects</a></li>
       <li style="float: right;"><a onclick="document.getElementById('skills_start').scrollIntoView();">Skills</a></li>
     </ul>
 
@@ -35,23 +33,26 @@
       <div id="pythonimg" style="float: left; text-align:center;">
         <img src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Python_logo_01.svg" width="300" height="300" style="display:inline-block; margin:0 90px;">
       </div>
-      <div margin-left="70px">
-        <h3>Skills</h3>
-        <ul>
-          <li>Proficient in Python, Java, C++, Javascript, HTML5, CSS, and SQL.</li>
-          <li>In Bachelor's degree program for Computer Science at the University of Michigan.</li>
-          <li>Independently published app developer</li>
-        </ul>
-        <button-custom class="button-custom" role="button" onclick="document.getElementById('projects_start').scrollIntoView();">Next</button-custom>
-      </div>
+      <h3>Skills</h3>
+      <ul>
+        <li>Proficient in Python, Java, C++, Javascript, HTML5, CSS, and SQL.</li>
+        <li>In Bachelor's degree program for Computer Science at the University of Michigan.</li>
+        <li>Independently published app developer</li>
+      </ul>
+      <button-custom class="button-custom" role="button" onclick="document.getElementById('projects_start').scrollIntoView();">Next</button-custom>
     </div>
 
-    <img id="projects_start" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/HD_transparent_picture.png/1200px-HD_transparent_picture.png" width="300" height="50">
+    <img id="projects_start" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/HD_transparent_picture.png/1200px-HD_transparent_picture.png" width="300" height="0">
     <div id="projects">
+      <div id="screenshotimg" style="float: left; text-align:center;">
+        <img src="https://play-lh.googleusercontent.com/lMQJF0EMAdnaFHlDIWnHhRO7ab8DA0k6dmgt31Tsky16S2-Qe-xedHrXYYx6FcP933c=w5120-h2880-rw" width="307" height="650" style="display:inline-block; margin:0 86px;">
+      </div>
       <h3>Projects</h3>
-      <iframe src="https://play.google.com/store/apps/details?id=com.hhalwan.tictactoe" title="Tic Tac Take" width="900" height="600"></iframe>
+      <p style="margin-left: 600px;">
+        I developed an Android app called Tic Tac Take. It's Tic Tac Toe with a twist, you can check it out on the Google play store via the button below.
+      </p>
+      <button-custom class="button-custom" role="button" onclick="location.href='https://play.google.com/store/apps/details?id=com.hhalwan.tictactoe';">Check out my app</button-custom>
     </div>
-
 
   </body>
 </html>
