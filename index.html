@@ -1,1 +1,57 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Hamza Alwan</title>
+
+    <link rel="stylesheet" href="/style.css" />
+
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+
+    <ul style="list-style-type: none; margin-top: -7em; margin-left: -7em; margin-right: -7em; padding: 0; overflow: hidden;">
+      <li style="float: right;"><a onclick="document.getElementById('skills_start').scrollIntoView();">Skills</a></li>
+    </ul>
+
+    <div id="intro" style="margin-top: 100px; margin-bottom: 500px;">
+      <div style="width: 100%;">
+          <div class="vl" style="background: #CE242B;"></div>
+          <div class="vl" style="margin-left: 160px; background: #6DC065;"></div>
+          <div class="vl" style="margin-left: 320px; background: #3989C9;"></div>
+      </div>
+
+      <h1>Hi, my name is</h1>
+      <h2>HAMZA<br>ALWAN</h2>
+      <h1>and I like to program.</h1>
+      <button-custom class="button-custom" role="button" onclick="document.getElementById('skills_start').scrollIntoView();">Next</button-custom>
+    </div>
+    
+    <img id="skills_start" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/HD_transparent_picture.png/1200px-HD_transparent_picture.png" width="300" height="200">
+    <div id="skills" style="margin-bottom: 500px;">
+      <div id="pythonimg" style="float: left; text-align:center;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Python_logo_01.svg" width="300" height="300" style="display:inline-block; margin:0 90px;">
+      </div>
+      <div margin-left="70px">
+        <h3>Skills</h3>
+        <ul>
+          <li>Proficient in Python, Java, C++, Javascript, HTML5, CSS, and SQL.</li>
+          <li>In Bachelor's degree program for Computer Science at the University of Michigan.</li>
+          <li>Independently published app developer</li>
+        </ul>
+        <button-custom class="button-custom" role="button" onclick="document.getElementById('projects_start').scrollIntoView();">Next</button-custom>
+      </div>
+    </div>
+
+    <img id="projects_start" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/HD_transparent_picture.png/1200px-HD_transparent_picture.png" width="300" height="50">
+    <div id="projects">
+      <h3>Projects</h3>
+      <iframe src="https://play.google.com/store/apps/details?id=com.hhalwan.tictactoe" title="Tic Tac Take" width="900" height="600"></iframe>
+    </div>
+
+
+  </body>
+</html>
